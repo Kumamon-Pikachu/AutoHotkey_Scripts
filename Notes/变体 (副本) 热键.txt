@@ -1,0 +1,6 @@
+Hotkey, IfWinActive, ahk_class Notepad
+Hotkey, ^!c, MyLabelForNotepad
+Hotkey, IfWinActive, ahk_class WordPadClass
+Hotkey, ^!c, MyLabelForWordPad
+Hotkey, IfWinActive
+Hotkey, ^!c, MyLabelForAllOtherWindows
