@@ -1,0 +1,11 @@
+adb shell /system/bin/screencap -p /sdcard/screenshot.png
+adb pull /sdcard/screenshot.png C:\Users\IVSOUL\Desktop
+
+
+
+
+adb pull /sdcard/DCIM C:\Users\IVSOUL\Desktop\DCIM
+
+adb pull /sdcard/Pictures C:\Users\IVSOUL\Desktop\Pictures
+
+adb shell wm size 获取手机分辨率
